@@ -18,6 +18,9 @@ Bug fixes:
 * Run the Cabal file checking in the `sdist` command more reliably by
   allowing the Cabal library to flatten the
   `GenericPackageDescription` itself.
+* Benchmarks used to be run concurrently with other benchmarks
+  and build steps. This is now fixed. See
+  [#3663](https://github.com/commercialhaskell/stack/issues/3663).
 
 ## v1.6.1
 
